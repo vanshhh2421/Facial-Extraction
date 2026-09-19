@@ -2,7 +2,7 @@
 
 > **AI-Powered Facial Recognition System for Large-Scale Event Photography**
 
-[![Project Demo](https://img.shields.io/badge/View-Live%20Demo-blueviolet?style=for-the-badge\&logo=streamlit)](YOUR_LINK_HERE)
+[![Project Demo](https://img.shields.io/badge/View-Live%20Demo-blueviolet?style=for-the-badge&logo=streamlit)](YOUR_LINK_HERE)
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=FF4B91&center=true&vCenter=true&width=700&lines=Searching+Thousands+of+Fest+Photos...;Finding+Your+Face+with+AI...;Neural+Vision+Meets+Memory.;No+More+Manual+Scrolling." alt="Typing Animation" />
@@ -35,7 +35,7 @@ Every college fest ends the same way:
 * 🌑 Chaotic lighting conditions
 * 👥 Crowd-heavy images everywhere
 
-During **Culrav '25'**, our photography club released over:
+During **Culrav**, our team released over:
 
 * **2,000+ high-resolution images**
 * Nearly **20GB of data**
@@ -65,23 +65,23 @@ Modern college events generate an overwhelming amount of visual data.
 
 # 🔥 Performance: Before vs After Optimization
 
-| Feature                   | Traditional Processing | FaceFind Optimized   |
-| :------------------------ | :--------------------- | :------------------- |
-| **Image Processing Time** | ⏳ ~48 Hours            | ⚡ ~80 Minutes        |
-| **Memory Usage**          | 🔥 Extremely High      | ❄️ Optimized         |
-| **Face Detection**        | 📉 Unstable            | 📈 Robust            |
-| **Lighting Handling**     | 🌑 Weak                | 💎 Neural Adaptive   |
-| **User Experience**       | 😵 Tedious             | 🚀 Instant Retrieval |
+| Feature                    | Traditional Processing | FaceFind Optimized   |
+| :------------------------- | :--------------------- | :------------------- |
+| **Image Processing Time**  | ⏳ ~48 Hours            | ⚡ ~80 Minutes        |
+| **Memory Usage**           | 🔥 Extremely High      | ❄️ Optimized         |
+| **Face Detection**         | 📉 Unstable            | 📈 Robust            |
+| **Lighting Handling**      | 🌑 Weak                | 💎 Neural Adaptive   |
+| **User Experience**        | 😵 Tedious             | 🚀 Instant Retrieval |
 
 ---
 
 # ⚙️ Core Processing Status
 
-`Image Indexing` ■■■■■■■■■■□□ 85%
-`Face Detection` ■■■■■■■■■□□□ 78%
-`Embedding Generation` ■■■■■■■■□□□□ 70%
-`Similarity Search` ■■■■■■■■■■□□ 82%
-`Result Retrieval` ■■■■■■■■■□□□ 80%
+`Image Indexing` ■■■■■■■■■■□□ 85%  
+`Face Detection` ■■■■■■■■■□□□ 78%  
+`Embedding Generation` ■■■■■■■■□□□□ 70%  
+`Similarity Search` ■■■■■■■■■■□□ 82%  
+`Result Retrieval` ■■■■■■■■■□□□ 80%  
 
 > [!TIP]
 > FaceFind currently indexes thousands of high-resolution event images while maintaining optimized RAM consumption using OpenCV preprocessing.
@@ -159,128 +159,3 @@ Directly processing DSLR images caused catastrophic CPU bottlenecks.
 
 ```python
 cv2.resize(image, (1024, 1024))
-```
-
-Instead of pushing raw 4K DSLR images into neural models:
-
-* Images were resized directly in RAM
-* Memory usage dropped drastically
-* Inference speed increased massively
-* CPU utilization stabilized
-
----
-
-# 📂 Project Structure
-
-```bash
-Facial_Extraction/
-│
-├── app.py
-├── index_photos.ipynb
-├── requirements.txt
-├── README.md
-│
-├── Natyamanch/
-├── Desi Sync/
-└── Nukkad/
-```
-
----
-
-# 🛠️ Installation
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/amaanarif755/Facial_Extraction.git
-cd Facial_Extraction
-```
-
----
-
-## 3️⃣ Add Event Images
-
-Place event folders inside the root directory:
-
-```bash
-Facial_Extraction/
-├── Natyamanch/
-├── Desi Sync/
-└── Nukkad/
-```
-
----
-
-## 4️⃣ Launch Streamlit
-
-```bash
-streamlit run app.py
-```
-
----
-
-# 📸 System Architecture
-
-```mermaid
-graph LR
-    A[Fest Photos] --> B(OpenCV Optimization)
-    B --> C{MTCNN Detection}
-    C --> D[ArcFace Embeddings]
-    D --> E(Cosine Similarity Search)
-    E --> F[Streamlit Dashboard]
-    F --> G((Matched Event Photos))
-```
-
----
-
-
-
-# 🧪 Future Roadmap
-
-* [ ] FAISS Vector Database Integration
-* [ ] GPU Acceleration
-* [ ] Real-Time Face Indexing
-* [ ] Cloud Deployment
-* [ ] Multi-Face Clustering
-* [ ] AI-Based Photo Ranking
-* [ ] Mobile Application
-
----
-
-## 🎥 Demo & Technical Breakdown
-
-📌 LinkedIn architecture walkthrough here:
-
-<p align="center">
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7434643197529690112/">
-    <img src="https://img.shields.io/badge/▶-Watch%20Demo-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-</p>
-
----
-
-# 👨‍💻 Creator
-
-## Mohd Amaan Arif
-
-### B.Tech — MNNIT Allahabad
-
-Machine Learning • Computer Vision • AI Systems
-
----
-
-# ⭐ Support the Project
-
-If you found this project interesting:
-
-🌟 Star the repository
-🍴 Fork the project
-📢 Share it with your friends
-
----
-
-<div align="center">
-
-# 💀 “Finding your face in thousands of fest photos — powered by neural vision.”
-
-</div>
